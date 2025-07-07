@@ -2,7 +2,7 @@ Identifier: eos11sr
 Slug: emfps
 Status: In progress
 Title: Embedded Morgan Fingerprints
-Description: Embedded version of Morgan binary Fingerprints
+Description: Embedded version of Morgan binary Fingerprints (eMFP) that preserves the key structural information of the encoded molecule. The implementation of eMFP offers an improved data representation that mitigates the risk of overfitting while enhancing model performance.
 Deployment:
 - Local
 Source: Local
