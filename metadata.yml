@@ -15,7 +15,7 @@ Input Dimension: 1
 Output:
 - Descriptor
 Output Dimension: 1024
-Output Consistency: Fixed, Variable
+Output Consistency: Fixed
 Interpretation: 'Vector representation of a molecule'
 Tag:
 - Embedding
