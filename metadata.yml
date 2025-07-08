@@ -1,6 +1,6 @@
 Identifier: eos11sr
 Slug: emfps
-Status: In progress
+Status: Ready
 Title: Embedded Morgan Fingerprints
 Description: Embedded version of Morgan binary Fingerprints (eMFP) that 
   preserves the key structural information of the encoded molecule. The 
@@ -35,5 +35,15 @@ Source Code: https://github.com/MMLabCodes/eMFP
 License: None
 Incorporation Date: '2025-07-03'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos11sr.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos11sr
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1.0
 Environment Size: 794.0
+Image Size: 709.61
+Computational Performance 1: 32.34
+Computational Performance 2: 17.58
+Computational Performance 3: 18.25
+Computational Performance 4: 38.7
+Computational Performance 5: 131.74
