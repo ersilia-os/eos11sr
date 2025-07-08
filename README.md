@@ -43,12 +43,19 @@ _10 of 1024 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos11sr](https://hub.docker.com/r/ersiliaos/eos11sr)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos11sr.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos11sr.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `794`
+- **Image Size (Mb):** `709.61`
 
+**Computational Performance (seconds):**
+- 10 inputs: `32.34`
+- 100 inputs: `18.25`
+- 10000 inputs: `131.74`
 
 ### References
 - **Source Code**: [https://github.com/MMLabCodes/eMFP](https://github.com/MMLabCodes/eMFP)
