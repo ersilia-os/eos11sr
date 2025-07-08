@@ -2,6 +2,7 @@
 
 Embedded version of Morgan binary Fingerprints (eMFP) that preserves the key structural information of the encoded molecule. The implementation of eMFP offers an improved data representation that mitigates the risk of overfitting while enhancing model performance.
 
+This model was incorporated on 2025-07-03.
 
 ## Information
 ### Identifiers
@@ -42,8 +43,11 @@ _10 of 1024 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos11sr.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos11sr.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1`
+- **Environment Size (Mb):** `794`
 
 
 ### References
