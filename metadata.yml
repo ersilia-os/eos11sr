@@ -34,6 +34,7 @@ Publication:
 Source Code: https://github.com/MMLabCodes/eMFP
 License: None
 Incorporation Date: '2025-07-03'
+Last Packaging Date: '2025-07-17'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos11sr.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos11sr
 Docker Architecture:
@@ -41,9 +42,9 @@ Docker Architecture:
   - ARM64
 Model Size: 1.0
 Environment Size: 794.0
-Image Size: 709.61
-Computational Performance 1: 32.34
-Computational Performance 2: 17.58
-Computational Performance 3: 18.25
-Computational Performance 4: 38.7
-Computational Performance 5: 131.74
+Image Size: 709.53
+Computational Performance 1: 31.73
+Computational Performance 2: 17.05
+Computational Performance 3: 17.7
+Computational Performance 4: 36.58
+Computational Performance 5: 122.2
