@@ -2,8 +2,7 @@
 
 Embedded version of Morgan binary Fingerprints (eMFP) that preserves the key structural information of the encoded molecule. The implementation of eMFP offers an improved data representation that mitigates the risk of overfitting while enhancing model performance.
 
-This model was incorporated on 2025-07-03.
-
+This model was incorporated on 2025-07-03.Last packaged on 2025-07-17.
 
 ## Information
 ### Identifiers
@@ -51,12 +50,12 @@ _10 of 256 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `794`
-- **Image Size (Mb):** `709.61`
+- **Image Size (Mb):** `709.53`
 
 **Computational Performance (seconds):**
-- 10 inputs: `32.34`
-- 100 inputs: `18.25`
-- 10000 inputs: `131.74`
+- 10 inputs: `31.73`
+- 100 inputs: `17.7`
+- 10000 inputs: `122.2`
 
 ### References
 - **Source Code**: [https://github.com/MMLabCodes/eMFP](https://github.com/MMLabCodes/eMFP)
