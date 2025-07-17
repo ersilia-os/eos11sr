@@ -4,6 +4,7 @@ Embedded version of Morgan binary Fingerprints (eMFP) that preserves the key str
 
 This model was incorporated on 2025-07-03.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos11sr`
@@ -13,7 +14,7 @@ This model was incorporated on 2025-07-03.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Embedding`, `Descriptor`
 
 ### Input
@@ -28,18 +29,18 @@ This model was incorporated on 2025-07-03.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dim_0000 | float |  | Dimension index 0 of the embedded Morgan Fingerprint |
-| dim_0001 | float |  | Dimension index 1 of the embedded Morgan Fingerprint |
-| dim_0002 | float |  | Dimension index 2 of the embedded Morgan Fingerprint |
-| dim_0003 | float |  | Dimension index 3 of the embedded Morgan Fingerprint |
-| dim_0004 | float |  | Dimension index 4 of the embedded Morgan Fingerprint |
-| dim_0005 | float |  | Dimension index 5 of the embedded Morgan Fingerprint |
-| dim_0006 | float |  | Dimension index 6 of the embedded Morgan Fingerprint |
-| dim_0007 | float |  | Dimension index 7 of the embedded Morgan Fingerprint |
-| dim_0008 | float |  | Dimension index 8 of the embedded Morgan Fingerprint |
-| dim_0009 | float |  | Dimension index 9 of the embedded Morgan Fingerprint |
+| dim_000 | float |  | Dimension index 0 of the embedded Morgan Fingerprint |
+| dim_001 | float |  | Dimension index 1 of the embedded Morgan Fingerprint |
+| dim_002 | float |  | Dimension index 2 of the embedded Morgan Fingerprint |
+| dim_003 | float |  | Dimension index 3 of the embedded Morgan Fingerprint |
+| dim_004 | float |  | Dimension index 4 of the embedded Morgan Fingerprint |
+| dim_005 | float |  | Dimension index 5 of the embedded Morgan Fingerprint |
+| dim_006 | float |  | Dimension index 6 of the embedded Morgan Fingerprint |
+| dim_007 | float |  | Dimension index 7 of the embedded Morgan Fingerprint |
+| dim_008 | float |  | Dimension index 8 of the embedded Morgan Fingerprint |
+| dim_009 | float |  | Dimension index 9 of the embedded Morgan Fingerprint |
 
-_10 of 1024 columns are shown_
+_10 of 256 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
