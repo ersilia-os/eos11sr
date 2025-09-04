@@ -1,4 +1,5 @@
-input
+smiles
 CCn1cc(C(O)=O)c(=O)c2cc(F)c(cc12)N1CCN(C)CC1
 CN(NC(=O)CC(=O)NN(C)C(=S)c1ccccc1)C(=S)c1ccccc1
 CN1CCN(CC1)C(=O)Cc1csc(NS(=O)(=O)c2cccc(Cl)c2C)n1
+
