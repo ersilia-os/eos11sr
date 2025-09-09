@@ -241,16 +241,10 @@ def convert_fp_to_embV2(vector, size):
     
     mfp_masked = tensorMask * vector_reshape
     mfp_maskedDotted = np.sum(mfp_masked, axis=1)
-    
-    if len(vector.shape) == 1:
-        return mfp_maskedDotted.reshape((rows, narrays))
-    else:
-        return mfp_maskedDotted.reshape((rows, narrays)).squeeze()
+    return mfp_maskedDotted.reshape((rows, narrays))
 
 
-# ---------------------------
-# DataFrame Utilities
-# ---------------------------
+
 
 def normalize_dataframe(df):
     """
