@@ -1,6 +1,5 @@
 # imports
 import os
-import csv
 import sys
 import numpy as np
 from rdkit import Chem
@@ -16,7 +15,6 @@ root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(root)
 from utils_molecules import convert_fp_to_embV2, calculate_morgan_fingerprints
 
-# read SMILES from .csv file, assuming one column with header
 cols, smiles_list = read_smiles(input_file)
 
 # run model
@@ -35,4 +33,4 @@ assert input_len == output_len
 
 # write output
 header = ["dim_{0}".format(str(i).zfill(2)) for i in range(32)]
-write_out(outputs,header,output_file,dtype='float32')
+write_out(outputs,header,output_file,np.float32)
