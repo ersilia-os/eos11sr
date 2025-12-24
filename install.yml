@@ -7,4 +7,4 @@ commands:
     - ["pip", "tqdm", "4.67.1"]
     - ["pip", "psutil", "7.0.0"]
     - ["pip", "scikit-learn", "1.7.0"]
-    - ["pip", "ersilia-pack-utils", "0.1.2"]
+    - ["pip", "ersilia-pack-utils", "0.1.5"]
